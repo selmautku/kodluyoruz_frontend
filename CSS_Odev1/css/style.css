@@ -1,0 +1,43 @@
+body {
+    background-color: bisque;
+    background-repeat: round;
+}
+
+img {
+    border: #F0FFFF;
+    align-items: center;
+    width: 400px;
+    max-height: 500px;
+}
+
+h1 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(235, 107, 33);
+    font-size: 20px;
+}
+
+nav {
+    text-align: center;
+    color:rgb(165, 42, 79)
+}
+
+li {
+    list-style-position: inside;
+}
+
+.centeralized {
+    text-align: center;
+}
+
+.enstruman {
+    list-style-position: inside;
+    text-align: center;
+    color:rgb(165, 42, 79);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
