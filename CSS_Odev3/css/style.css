@@ -1,0 +1,111 @@
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  background: #fff;
+  color: #222
+}
+
+.float-left{ float: left }
+
+.float-right{ float: right }
+
+nav {      
+  width: 100%;
+  height: 50px;
+  top: 16px;
+  margin: 10px 0 
+}
+
+nav a,
+img {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #5f6368
+}
+
+a:hover { text-decoration: underline }
+
+img { vertical-align: middle }
+
+.profile-pic{ 
+  width: 35px;
+  border-radius: 50%;
+}
+
+.main {
+  margin-top: 100px;
+  height: 300px;
+  text-align: center
+}
+
+.logo{ margin-top: 130px }
+
+.search-area{
+  width: 582px;
+  margin: 0 auto;
+  margin-top: 23px;
+  padding-top: 6px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  z-index: 3;
+  height: 38px;
+  text-align: center
+}
+
+#search{
+  width: 480px;
+  height: 30px;
+  font-size: 16px;
+  border: none;
+  outline: none
+  
+}
+
+#search-img{
+  display:inline;
+  float: left;
+  margin-top: 5px;
+  margin-left: 11px
+}
+
+#voice-img{
+  display: inline;
+  float: right;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.button{
+  margin: 10px 6px;
+  padding: 0 14px;
+  height: 36px;
+  color: #5F6368;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-size: 14px
+}
+
+.button:hover{
+  color: #222;
+  box-shadow: 1px 1px 3px 0px #ccc;
+  border: 1px solid #bbb
+}
+
+footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  line-height: 40px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4
+}
+
+.footer-left a { padding-left: 27px }
+
+.footer-right a{ padding-right: 27px }
