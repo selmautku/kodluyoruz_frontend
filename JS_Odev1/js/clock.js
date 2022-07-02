@@ -9,6 +9,10 @@ else {
     showTime();
 }
 
+let arr = ["aaa", "bbb", {key1: "1aaa", key2:3}];
+localStorage.setItem("movies", JSON.stringify(arr));
+let arr2 = JSON.parse(localStorage.getItem("movies"));
+
 function showTime() { 
     handleTimer();
     setTimeout(handleTimer, 1000);
